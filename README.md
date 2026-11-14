@@ -28,29 +28,6 @@ Open `index.html` in a browser or run `python -m http.server 8000` from this fol
 
 The contact form uses `mailto:`. It opens the visitor's configured email application with a prefilled message; **it does not automatically submit**. Visitors without an email application can use the visible Gmail address or phone number. For a hosted form later, choose a reputable form provider and update the privacy notice.
 
-## Before publishing
-
-- Confirm you have permission to publicly name **Rental Minnesota LLC** and **San's Painting LLC** as clients. If not, remove names and retain the industry descriptions.
-- Confirm founder names/titles reflect current legal arrangements.
-- Confirm the service descriptions match services currently offered.
-- Review the privacy page with counsel, especially if adding analytics or a form backend.
-- Replace the favicon if desired; upload approved testimonials and photographs only when ready.
-- No fabricated testimonials or credentials are included.
-
-## Edit content
-
-Edit the relevant `.html` file; global styling is in `assets/style.css`, and navigation/contact-form behavior is in `assets/site.js`. Commit changes to `main` to publish them.
-
-## Security
-
-Enable 2FA on GitHub and your business Gmail account. Never commit passwords, API keys, financial documents, or client data to this public repository.
-
-
-## Premium redesign (v2)
-The homepage now includes a continuously rotating decorative logo ring, sticky translucent header on scroll, animated financial graphic, scrolling capabilities ribbon, four-stage infographic, illustrative dashboard, floating elements, and reveal animations. Motion is disabled for visitors who request reduced motion. No fabricated financial statistics are used.
-
-The visual reference was Minnesota Care Counseling Services (mncarecounseling.com); this design is original, not copied from its source.
-
 
 ## Animated CountWise logo (v3)
 `assets/countwise-animated-mark.svg` is an original lightweight SVG animation. The C rotates, and five green chart columns rise progressively. It is used in the navigation and homepage illustration. Animation respects reduced-motion preferences. No external libraries or subscriptions are needed.
