@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+<title id="title">CountWise animated C and W chart</title><desc id="desc">A rotating C surrounds nine growing green vertical bars that create a clear W-shaped skyline, with a lower left wing and a taller right wing. No arrow.</desc>
+<defs><linearGradient id="bars" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#288b55"/><stop offset="1" stop-color="#a0e8a7"/></linearGradient></defs>
+<style><![CDATA[
+.c{transform-origin:80px 80px;animation:spin 6s ease-in-out infinite}
+.bar{transform-box:fill-box;transform-origin:center bottom;animation:rise 4s ease-in-out infinite;animation-delay:var(--delay)}
+@keyframes spin{0%,12%{transform:rotate(0deg)}75%,100%{transform:rotate(360deg)}}
+@keyframes rise{0%,7%{transform:scaleY(.04);opacity:.2}38%,74%{transform:scaleY(1);opacity:1}94%,100%{transform:scaleY(.04);opacity:.2}}
+@media(prefers-reduced-motion:reduce){.c,.bar{animation:none!important}}
+]]></style>
+<circle cx="80" cy="80" r="75" fill="#0b241c"/>
+<path class="c" d="M113 37 A53 53 0 1 0 113 123" fill="none" stroke="#f0f6ed" stroke-width="15" stroke-linecap="round"/>
+<g fill="url(#bars)"><rect class="bar" style="--delay:0.00s" x="48" y="71" width="8" height="46" rx="1.5"/>
+<rect class="bar" style="--delay:0.16s" x="58" y="87" width="8" height="30" rx="1.5"/>
+<rect class="bar" style="--delay:0.32s" x="68" y="102" width="8" height="15" rx="1.5"/>
+<rect class="bar" style="--delay:0.48s" x="78" y="81" width="8" height="36" rx="1.5"/>
+<rect class="bar" style="--delay:0.64s" x="88" y="61" width="8" height="56" rx="1.5"/>
+<rect class="bar" style="--delay:0.80s" x="98" y="83" width="8" height="34" rx="1.5"/>
+<rect class="bar" style="--delay:0.96s" x="108" y="100" width="8" height="17" rx="1.5"/>
+<rect class="bar" style="--delay:1.12s" x="118" y="69" width="8" height="48" rx="1.5"/>
+<rect class="bar" style="--delay:1.28s" x="128" y="40" width="8" height="77" rx="1.5"/></g>
+</svg>
