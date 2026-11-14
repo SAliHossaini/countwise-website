@@ -27,7 +27,3 @@ Open `index.html` in a browser or run `python -m http.server 8000` from this fol
 ## Contact form
 
 The contact form uses `mailto:`. It opens the visitor's configured email application with a prefilled message; **it does not automatically submit**. Visitors without an email application can use the visible Gmail address or phone number. For a hosted form later, choose a reputable form provider and update the privacy notice.
-
-
-## Animated CountWise logo (v3)
-`assets/countwise-animated-mark.svg` is an original lightweight SVG animation. The C rotates, and five green chart columns rise progressively. It is used in the navigation and homepage illustration. Animation respects reduced-motion preferences. No external libraries or subscriptions are needed.
